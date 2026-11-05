@@ -1,4 +1,4 @@
-// mKeima_counter_v6_Auto.ijm
+// mKeima_counter_Batch_Auto.ijm
 //
 // Minimal-diff automation wrapper around mKeima_counter_AP.ijm (g.ball@dundee.ac.uk,
 // Dundee Imaging Facility, October 2019, Creative Commons CC-BY-SA).
@@ -47,7 +47,7 @@ redThreshNstd = 0;  // red channel intensity threshold: number of stdDev above m
 // --- start Macro ---
 
 // 1. dialog to select options & update parameters
-Dialog.create("mKeima_counter_v6_Auto");
+Dialog.create("mKeima_counter_Batch_Auto");
 Dialog.addCheckbox("Batch Mode?", doBatch);
 Dialog.addNumber("Green channel", grnCh);
 Dialog.addNumber("Red channel", redCh);
@@ -305,7 +305,7 @@ for (imageNo = 0; imageNo < numberOfImages; imageNo++) {
 //    timestamp so repeat runs don't overwrite each other, instead of the
 //    original's Results_mQC_counter_<timestamp> subfolder.
 paramString = "_grnCh" + grnCh + "_redCh" + redCh;
-resultName = "Results_mKeima_v6_Auto_" + timeStamp() + paramString + ".csv";
+resultName = "Results_mKeima_Batch_Auto_" + timeStamp() + paramString + ".csv";
 IJ.renameResults(resultName);
 if (doBatch) {
 	run("Input/Output...", "jpeg=85 gif=-1 file=.csv copy_column save_column");  // configure output

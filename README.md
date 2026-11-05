@@ -11,7 +11,7 @@ Fiji (ImageJ) macros for quantifying mitolysosomes in live-cell mito-mKeima conf
 
 ## Requirements
 
-- Fiji (https://fiji.sc), version [add version used]. Bio-Formats is included with Fiji.
+- Fiji (https://fiji.sc), ImageJ2 version 2.16.0/1.54p or later. Bio-Formats is included with Fiji.
 - Nikon ND2 images with the following channel order: channel 1, mKeima green; channel 2, mKeima red; channel 3 (optional), Hoechst; channel 4 (optional), brightfield.
 
 ## Workflow

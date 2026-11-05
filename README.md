@@ -1,6 +1,6 @@
 # mito-mKeima FIJI analysis macros
 
-Fiji (ImageJ) macros for quantifying mitolysosomes in live-cell mito-mKeima confocal images. These macros accompany the STAR Protocols article *Protocol to quantify mitophagy in mammalian cells using mito-mKeima and live-cell confocal microscopy* (Yadav et.al., [citation and DOI to be added upon publication]).
+Fiji (ImageJ) macros for quantifying mitolysosomes in live-cell mito-mKeima confocal images. These macros accompany the STAR Protocols article *Protocol to quantify mitophagy in mammalian cells using mito-mKeima and live-cell confocal microscopy* (Yadav et al., [citation and DOI to be added upon publication]).
 
 ## Contents
 
